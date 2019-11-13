@@ -39,10 +39,7 @@ public class et_admin implements Serializable {
 	public void setPassword(String password) {
 		this.password = password;
 	}
-	@Override
-	public String toString() {
-		return "et_admin [id=" + id + ", name=" + name + ", password=" + password + "]";
-	}
+	
 	
 	
 
